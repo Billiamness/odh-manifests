@@ -7,5 +7,9 @@ spec:
   to:
     kind: Service
     name: argo-server
+  tls:
+    termination: edge
+    insecureEdgeTerminationPolicy: Redirect
+  wildcardPolicy: None
   port:
     targetPort: 2746
