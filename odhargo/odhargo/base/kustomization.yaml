@@ -10,6 +10,7 @@ resources:
 - workflow-configmap.yaml
 - service-argo-server.yaml
 - service-workflow-controller.yaml
+- deployment-argo-server.yaml
 - deployment-workflow-controller.yaml
 - portal-route.yaml
 - argo-workflow-rbac.yaml
