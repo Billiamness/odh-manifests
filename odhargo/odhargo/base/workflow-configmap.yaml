@@ -24,4 +24,4 @@ data:
       # browser-accessible.
       redirectUrl: https://argo-server/oauth2/callback
 metadata:
-  name: workflow-controller-configmap
+  name: workflow-controller-configmap-template
