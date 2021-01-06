@@ -45,6 +45,8 @@ spec:
                 name: superset
             - secretRef:
                 name: superset-secret
+            - secretRef:
+                name: mapbox-api-secret
           image: quay.io/aiops/superset:v0.30
           imagePullPolicy: Always
           ports:
