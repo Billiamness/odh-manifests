@@ -18,6 +18,8 @@ data:
   superset_config.py: |
     import os
 
+    BASE_DIR = os.path.abspath(os.path.dirname(__file__))
+    UPLOAD_FOLDER = BASE_DIR + '/app/static/uploads/'
     MAPBOX_API_KEY = os.getenv('MAPBOX_API_KEY', '')
     SQLALCHEMY_DATABASE_URI = os.getenv('SUPERSET_SQLALCHEMY_DB_URI', '')
     SQLALCHEMY_TRACK_MODIFICATIONS = True
